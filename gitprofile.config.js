@@ -23,19 +23,23 @@ const config = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: 'karivarkey',
-    website: 'https://kari-varkey.github.io',
+    website: 'https://karivarkey.github.io',
     phone: '',
     email: 'geevargheseregi78@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    
+      
   },
   skills: [
     'Python',
     'C',
-    'Leadership Skills',
-    'Teamwork',
+    'NodeJS',
+    'React',
+    'TailwindCSS',
+    'MongoDB',
+    'Redis',
+    'Firebase'
   ],
   experiences: [
     {
@@ -45,6 +49,20 @@ const config = {
       to: 'January 2021',
       companyLink: 't.me/RM6Official',
     },
+    {
+      company: 'μLearn',
+      position: 'Front-end Developer Intern',
+      from: 'June 2024',
+      to: 'September 2024',
+      companyLink: 'https://mulearn.org',
+    },
+    {
+      company: 'Banzan Studios',
+      position: 'Technical Intern',
+      from: 'Septemebr 2024',
+      to: 'Present',
+      companyLink: 'https://banzan.co',
+    }
   ],
   /* certifications: [
     {
@@ -71,6 +89,27 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    {
+      title: 'Kodomo',
+      description:
+        'AI and meme based chatbot to aid in education',
+      imageUrl: 'https://res.cloudinary.com/dgeduh0en/image/upload/v1732245452/xlq0dybydayfs6y3zxsv.png',
+      link: 'https://kodomo-firebase.web.app/',
+    },
+    {
+      title: 'ToyAI',
+      description:
+        'An e-commerce website with AI powered suggestions using Gemini',
+      imageUrl: 'https://res.cloudinary.com/dgeduh0en/image/upload/v1732245530/kwr1rierbv3xlqkubybd.png',
+      link: 'https://toyaiweb.web.app/',
+    },
+    {
+      title: 'MunchMate',
+      description:
+        'Canteen Application for our college awaiting final approval from college',
+      imageUrl: 'https://res.cloudinary.com/dgeduh0en/image/upload/v1732245585/q95zk17ikdkx0umvkau0.png',
+      link: 'https://munch-mate1.firebaseapp.com/',
+    }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
@@ -147,7 +186,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with and ❤️`,
+  footer: `Made with  ❤️`,
 };
 
 export default config;
